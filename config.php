@@ -2,8 +2,8 @@
 
 // Configuration parameters that need to be set up correctly (unique to particular setup)
 
-define('CONFIG_DB_CONNECT_STRING', 'mysql:host=sql.inphonepl85.nazwa.pl;port=3307;dbname=inphonepl85_14'); // PDO database connect string (e.g. mysql:host=example.com;dbname=example)
-define('CONFIG_DB_USERNAME', 'inphonepl85_14'); // username for database authorization
+define('CONFIG_DB_CONNECT_STRING', 'mysql:host=sql.sellrocket.nazwa.pl;port=3306;dbname=sellrocket'); // PDO database connect string (e.g. mysql:host=example.com;dbname=example)
+define('CONFIG_DB_USERNAME', 'sellrocket'); // username for database authorization
 define('CONFIG_DB_PASSWORD', 'Flensburg1'); // password for database authorization
 define('CONFIG_API_SECRET', 'Syrafohet1'); // secret used to verify request signatures (can be any strong password, e.g. [a-zA-Z0-9]{70,})
 define('CONFIG_SERVER_SECRET', 'Syrafohet1'); // secret used to encrypt messages before storing them in the database (can be any strong password, e.g. [a-zA-Z0-9]{70,})
